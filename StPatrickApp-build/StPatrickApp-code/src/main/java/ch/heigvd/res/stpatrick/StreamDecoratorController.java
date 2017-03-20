@@ -13,8 +13,8 @@ public class StreamDecoratorController implements IStreamDecoratorController {
     public Reader decorateReader(Reader inputReader) {
         /**
          * I choosed to decorate the writer instead of the reader, so this
-         * method doesn't do anything.
-         * In other case it would have returned a decorated reader.
+         * method doesn't do anything. In other case it would have returned a
+         * decorated reader.
          */
         return inputReader;
     }
